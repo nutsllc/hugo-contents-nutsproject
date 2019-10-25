@@ -2,8 +2,9 @@
 
 SELF=$(cd $(dirname $0); pwd)
 
+
 function _hugo() {
-    docker run -v ${SELF}/../:/site --rm -it nutsllc/toybox-hugo hugo
+    docker run -u $(id -u):$(id -g) -v ${SELF}/../:/site --rm -it nutsllc/toybox-hugo hugo
 }
 
 _hugo && {
