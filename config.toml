@@ -1,7 +1,7 @@
 # Site settings
-baseURL = "http://example.org/"
+baseURL = "https://www.nutsproject.co.jp/"
 languageCode = "en-us"
-title = "Forty"
+title = "Nuts Project, LLC"
 theme = "forty"
 
 # Enter your tracking code to enable Google Analytics
@@ -37,8 +37,8 @@ disqusShortname = ""
 
   # Navigation Section
   [params.navigation]
-    title = "Forty"
-    subtitle = "By HTML5 Up"
+    title = "NutsProject,LLC"
+    subtitle = "@Tokyo, JAPAN"
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
@@ -81,7 +81,7 @@ disqusShortname = ""
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Hi, my name is Forty"
+    title = "Nuts Project, LLC"
     subtitle = "A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP\nAND RELEASED UNDER THE CREATIVE COMMONS."
     buttonText = "Get Started"
 
@@ -90,42 +90,48 @@ disqusShortname = ""
   [params.tiles]
     enable = true
     # Display your showcases here.
-    
+
     [[params.tiles.showcase]]
-      title = "Aliquam"
+      title = "Mission"
       subtitle = "Ipsum Dolor Sit Amet"
       image = "pic01.jpg"
-      url = "blogs/aliquam"
+      #url = "blogs/aliquam"
+      url = "mission"
 
     [[params.tiles.showcase]]
-      title = "Tempus"
+      title = "Core Competence"
       subtitle = "Feugiat Amet Tempus"
       image = "pic02.jpg"
-      url = "blogs/tempus"
+      #url = "blogs/tempus"
+      url = "core-competence"
 
     [[params.tiles.showcase]]
-      title = "Magna"
-      subtitle = "Lorem Etiam Nullam"
+      title = "Project: Nuts Toybox"
+      subtitle = "Docker Container Library"
       image = "pic03.jpg"
-      url = "blogs/magna"
+      #url = "blogs/magna"
+      url = "nutstoybox"
 
     [[params.tiles.showcase]]
-      title = "Ipsum"
-      subtitle = "Nisl Sed Aliquam"
+      title = "Project: Toybox Hugo"
+      subtitle = "Static site generator on Docker"
       image = "pic04.jpg"
-      url = "blogs/ipsum"
+      #url = "blogs/ipsum"
+      url = "hugo"
 
     [[params.tiles.showcase]]
-      title = "Consequat"
-      subtitle = "Ipsum Dolor Sit Amet"
+      title = "Service: eCommerce"
+      subtitle = "Trading and Shopping"
       image = "pic05.jpg"
-      url = "blogs/ipsum"
+      #url = "blogs/ipsum"
+      url = "ecommerce"
 
     [[params.tiles.showcase]]
-      title = "Etiam"
-      subtitle = "Feugiat Amet Tempus"
+      title = "Company Profile"
+      subtitle = "Introduction of our company"
       image = "pic06.jpg"
-      url = "blogs/ipsum"
+      #url = "blogs/ipsum"
+      url = "company-profile"
     # You can make more showcases by copy and pasting the code above
 
   [params.blog]
@@ -139,9 +145,9 @@ disqusShortname = ""
   [params.two]
     enable = true
     title = "Massa libero"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
-    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
+    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
+    Mauris aliquet magna magna sed nunc rhoncus pharetra.
+    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
     Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
     Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
     buttonText = "Get Started"
@@ -172,22 +178,22 @@ disqusShortname = ""
     # by copying the corresponding map with frontmatter code.
     [[params.contact.email]]
     title = "Email"
-    email = "example@domain.com"
+    email = "info@nutsproject.co.jp"
 
     [[params.contact.phone]]
     title = "Phone"
-    phone = "(000) 000-0000 x1234"
+    phone = "(+81)03-0000-1234"
 
     [[params.contact.address]]
-    title = "Address"
-    street = "Street"
-    city = "City, ST 00000"
-    country = "Country"
+    title = "Head Office"
+    street = "Kabuto"
+    city = "Chuo, Tokyo 1030026"
+    country = "JAPAN"
 
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Company Name"
+    copyright = "Nuts Project, LLC, All rights reserved."
 
     # Uses font awesome icons
     [[params.footer.social]]
@@ -204,7 +210,7 @@ disqusShortname = ""
       icon = "fa-instagram"
       url= "https://www.instagram.com"
       label = "Instagram"
-    
+
     [[params.footer.social]]
       icon = "fa-github"
       url= "https://www.github.com"
@@ -216,6 +222,11 @@ disqusShortname = ""
       label = "LinkedIn"
 
     [[params.footer.quicklinks]]
-      text = "Design: "
-      url= "https://www.html5up.net"
-      alt = "HTML5 UP"
+      text = "Nuts Toybox: "
+      url= "https://nuts-toybox.com"
+      alt = "Nuts Toybox"
+
+    [[params.footer.quicklinks]]
+      text = "Toybox Hugo: "
+      url= "https://nuts-toybox.com/hugo"
+      alt = "Toybox Hugo"
